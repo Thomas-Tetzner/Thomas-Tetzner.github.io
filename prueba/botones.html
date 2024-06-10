@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boton</title>
+    <link rel="stylesheet" href="boton.css">
+</head>
+<body>
+    <p class="parrafo" id="parrafo" onclick="nombre()">
+        p 1
+    </p>
+    <p class="parrafo1" id="texto" onclick="nombre()">
+        p 2 
+    </p>
+
+    <button class="bot" onclick="nombre()"> Negro</button>
+    <button class="botu" onclick="nombre()">Rojo</button>
+    <button class="boto" onclick="nombre()">Verde</button>
+      
+   <script>
+        const parrafo = document.getElementById ("parrafo")
+        const texto = document.getElementById("texto") 
+    function nombre() {
+         parrafo.textContent = texto.value; 
+    }    
+
+   </script>
+    
+</body>
+</html>
